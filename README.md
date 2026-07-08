@@ -1,1 +1,0 @@
-# keldi_bot
