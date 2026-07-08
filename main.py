@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Bot sozlamalari
 BOT_TOKEN = '8988913587:AAFnXQYlUAgGJe_qZWFTMK1c16y6sR65-Kg'
 ADMIN_ID = '7575052801'
-WEB_APP_URL = 'https://sizning-saytingiz.com/index.html'  # Saytingiz manzili bilan almashtiring!
+WEB_APP_URL = 'https://keldibot-production.up.railway.app/index.html'
 
 BASE_URL = f"https://api.telegram.org/bot{BOT_TOKEN}"
 
