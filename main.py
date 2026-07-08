@@ -1,9 +1,9 @@
 <?php
 // Bot tokeningiz
-define('API_TOKEN', 'YOUR_BOT_TOKEN');
+define('API_TOKEN', '8988913587:AAFnXQYlUAgGJe_qZWFTMK1c16y6sR65-Kg');
 
 // Web App manzili (HTTPS bo'lishi shart!)
-define('WEB_APP_URL', 'https://sizning-saytingiz.com/index.html');
+define('WEB_APP_URL', 'https://sizning-saytingiz.com/index.html'); // O'z saytingiz manzili bilan almashtiring!
 
 $update = json_decode(file_get_contents('php://input'), true);
 $chat_id = $update['message']['chat']['id'] ?? $update['callback_query']['message']['chat']['id'] ?? null;
